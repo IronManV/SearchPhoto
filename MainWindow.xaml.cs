@@ -24,13 +24,13 @@ namespace SearchPhotoApp
         public MainWindow()
         {
             InitializeComponent();
-            //ApiHelper.InitializeClient();
+            ApiHelper.InitializeClient();
             
         }
         
-        private async Task LoadImage(string query)
+        private async Task LoadImage()
         {
-            var photo = await PhotoProcessor.LoadPhoto(query);
+            var photo = await PhotoProcessor.LoadPhoto(Convert.ToString(text.Text));
 
             for (int i = 0; i < photo.uriList.Count; i++)
             {
@@ -107,13 +107,13 @@ namespace SearchPhotoApp
             }
         }
         
-        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
            
         }
         public async void searchBtn_Click(object sender, RoutedEventArgs e)
         {
-            await LoadImage(Convert.ToString(text.Text));
+            await LoadImage();
         }
     }
 }

@@ -23,8 +23,6 @@ C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoLibrary\obj\Debug\SearchPhoto
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.dll.config
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.dll
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.pdb
-C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.csprojAssemblyReference.cache
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.csproj.CopyComplete
 C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.dll
