@@ -42,6 +42,7 @@ namespace SearchPhotoApp
             {
                 var uriSource = photo.uriList[i];
                 
+                
                 list.Add(new Images() { imagePath = uriSource.AbsoluteUri});
 
             }
@@ -56,6 +57,11 @@ namespace SearchPhotoApp
         public async void searchBtn_Click(object sender, RoutedEventArgs e)
         {
             await LoadImage();
+        }
+
+        private void randomBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         
