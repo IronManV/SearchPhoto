@@ -15,7 +15,7 @@ namespace SearchPhotoLibrary
         public static async Task<PhotoModel> LoadPhoto(string query)
         {
             string queryTerm = query;
-            int imageAmount = 8;
+            int imageAmount = 10;
             string key = "&key=AIzaSyD1ZKe3T1AO71vYlI4reK4-q3dTKfVtxuQ"; 
             string cx = "&cx=012312041580636005008:2httsyobkoe"; 
             
