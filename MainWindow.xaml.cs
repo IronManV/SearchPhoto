@@ -25,86 +25,28 @@ namespace SearchPhotoApp
         {
             InitializeComponent();
             ApiHelper.InitializeClient();
-            
+     
         }
         
+        class Images
+        {
+            public string imagePath { get; set; }
+        }
+
         private async Task LoadImage()
         {
+            List<Images> list = new List<Images>();
             var photo = await PhotoProcessor.LoadPhoto(Convert.ToString(text.Text));
 
             for (int i = 0; i < photo.uriList.Count; i++)
             {
                 var uriSource = photo.uriList[i];
-                switch (i)
-                {
-                    case 0:
-                        photoImage1.Source = new BitmapImage(uriSource);
-                        break;
-                    case 1:
-                        photoImage2.Source = new BitmapImage(uriSource);
-                        break;
-                    case 2:
-                        photoImage3.Source = new BitmapImage(uriSource);
-                        break;
-                    case 3:
-                        photoImage4.Source = new BitmapImage(uriSource);
-                        break;
-                    case 4:
-                        photoImage5.Source = new BitmapImage(uriSource);
-                        break;
-                    case 5:
-                        photoImage6.Source = new BitmapImage(uriSource);
-                        break;
-                    case 6:
-                        photoImage7.Source = new BitmapImage(uriSource);
-                        break;
-                    case 7:
-                        photoImage8.Source = new BitmapImage(uriSource);
-                        break;
-                        /*
-                    case 8:
-                        photoImage9.Source =new BitmapImage(uriSource);
-                        break;
-                    case 9:
-                        photoImage10.Source = new BitmapImage(uriSource);
-                        break;
-                    case 10:
-                        photoImage11.Source = new BitmapImage(uriSource);
-                        break;
-                    case 11:
-                        photoImage12.Source = new BitmapImage(uriSource);
-                        break;
-                    case 12:
-                        photoImage13.Source = new BitmapImage(uriSource);
-                        break;
-                    case 13:
-                        photoImage14.Source = new BitmapImage(uriSource);
-                        break;
-                    case 14:
-                        photoImage15.Source = new BitmapImage(uriSource);
-                        break;
-                    case 15:
-                        photoImage16.Source = new BitmapImage(uriSource);
-                        break;
-                    case 16:
-                        photoImage17.Source = new BitmapImage(uriSource);
-                        break;
-                    case 17:
-                        photoImage18.Source = new BitmapImage(uriSource);
-                        break;
-                    case 18:
-                        photoImage19.Source = new BitmapImage(uriSource);
-                        break;
-                    case 19:
-                        photoImage20.Source = new BitmapImage(uriSource);
-                        break;
-                        */
-                        
-                    default:
-                        Console.WriteLine("Default case");
-                        break;
-                }
+                
+                list.Add(new Images() { imagePath = uriSource.AbsoluteUri});
+
             }
+
+            ListBox1.ItemsSource = list;
         }
         
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -115,5 +57,7 @@ namespace SearchPhotoApp
         {
             await LoadImage();
         }
+
+        
     }
 }
