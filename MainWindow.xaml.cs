@@ -25,7 +25,6 @@ namespace SearchPhotoApp
         {
             InitializeComponent();
             ApiHelper.InitializeClient();
-     
         }
         
         class Images
@@ -41,15 +40,29 @@ namespace SearchPhotoApp
             for (int i = 0; i < photo.uriList.Count; i++)
             {
                 var uriSource = photo.uriList[i];
-                
-                
+              
                 list.Add(new Images() { imagePath = uriSource.AbsoluteUri});
+            }
+
+            ListBox1.ItemsSource = list;
+        }
+        private async Task LoadRandomImage()
+        {
+            List<Images> list = new List<Images>();
+            var photo = await PhotoProcessor.RandomPhoto();
+
+            for (int i = 0; i < photo.uriList.Count; i++)
+            {
+                var uriSource = photo.uriList[i];
+
+
+                list.Add(new Images() { imagePath = uriSource.AbsoluteUri });
 
             }
 
             ListBox1.ItemsSource = list;
         }
-        
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
            
@@ -59,9 +72,9 @@ namespace SearchPhotoApp
             await LoadImage();
         }
 
-        private void randomBtn_Click(object sender, RoutedEventArgs e)
+        private async void randomBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            await LoadRandomImage();
         }
 
         
