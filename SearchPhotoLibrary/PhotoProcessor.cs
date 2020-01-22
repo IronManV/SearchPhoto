@@ -19,6 +19,10 @@ namespace SearchPhotoLibrary
             string key = "&key=AIzaSyD1ZKe3T1AO71vYlI4reK4-q3dTKfVtxuQ"; 
             string cx = "&cx=012312041580636005008:2httsyobkoe"; 
             
+            if(queryTerm == "")
+            {
+                queryTerm = " ";
+            }
 
             string url = "https://www.googleapis.com/customsearch/v1?q=" + queryTerm + cx + "&imgSize=medium&num=" + imageAmount + "&searchType=image" + key;
             // string url = "https://www.googleapis.com/customsearch/v1?q=cat&cx=012312041580636005008%3A2httsyobkoe&imgSize=medium&num=8&searchType=image&key=AIzaSyD1ZKe3T1AO71vYlI4reK4-q3dTKfVtxuQ";
@@ -51,7 +55,15 @@ namespace SearchPhotoLibrary
             string key = "&key=AIzaSyD1ZKe3T1AO71vYlI4reK4-q3dTKfVtxuQ";
             string cx = "&cx=012312041580636005008:2httsyobkoe";
             string[] wordsDictionary = new string[] { "Cat", "Car", "Hammer", "Truck", "Tree", "Bush", "Flower", "Chair", "Desk", "Shoes", "Hat",
-            "Socks", "Tire", "Snow", "Mud", "Rain", "Sun", "Water", "Desert", "Stone"};
+            "Socks", "Tire", "Snow", "Mud", "Rain", "Sun", "Water", "Desert", "Stone", "Mercedes", "Ford", "Mustang", "BMW"};
+
+            List<string> queryRandomWords = new List<string>();
+            for(int i = 0; i < wordsDictionary.Length - 1; i++)
+            {
+                queryRandomWords.Add(wordsDictionary[i]);
+            }
+
+
             List<string> urls = new List<string>();
             string url= "";
 
@@ -59,7 +71,8 @@ namespace SearchPhotoLibrary
             for(int i = 0; i < 5; i++)
             {
                 int randomValue = rnd.Next(0, wordsDictionary.Length - 1);
-                url = "https://www.googleapis.com/customsearch/v1?q=" + wordsDictionary[randomValue] + cx + "&imgSize=medium&num=" + imageAmount + "&searchType=image" + key;
+                url = "https://www.googleapis.com/customsearch/v1?q=" + queryRandomWords[randomValue] + cx + "&imgSize=medium&num=" + imageAmount + "&searchType=image" + key;
+                queryRandomWords.RemoveAt(randomValue);
                 urls.Add(url);
             }
 

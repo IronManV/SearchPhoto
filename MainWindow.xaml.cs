@@ -26,11 +26,6 @@ namespace SearchPhotoApp
             InitializeComponent();
             ApiHelper.InitializeClient();
         }
-        
-        class Images
-        {
-            public string imagePath { get; set; }
-        }
 
         private async Task LoadImage()
         {
