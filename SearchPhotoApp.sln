@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoLibrary", "Searc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoUnitTest", "SearchPhotoUnitTest\SearchPhotoUnitTest.csproj", "{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SearchPhotoSetup", "..\SearchPhotoSetup\SearchPhotoSetup.vdproj", "{20189AEC-0EAE-4E45-AD1F-FC9CA82E944D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,13 +22,15 @@ Global
 		{772F84D2-528E-476F-89C8-1074FDB03187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{772F84D2-528E-476F-89C8-1074FDB03187}.Release|Any CPU.Build.0 = Release|Any CPU
 		{675F4F6F-7AB9-4D3A-9152-39996B941149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{675F4F6F-7AB9-4D3A-9152-39996B941149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675F4F6F-7AB9-4D3A-9152-39996B941149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675F4F6F-7AB9-4D3A-9152-39996B941149}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20189AEC-0EAE-4E45-AD1F-FC9CA82E944D}.Debug|Any CPU.ActiveCfg = Debug
+		{20189AEC-0EAE-4E45-AD1F-FC9CA82E944D}.Debug|Any CPU.Build.0 = Debug
+		{20189AEC-0EAE-4E45-AD1F-FC9CA82E944D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

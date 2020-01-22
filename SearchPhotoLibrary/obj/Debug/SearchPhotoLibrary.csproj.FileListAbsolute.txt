@@ -30,7 +30,6 @@ C:\Users\Pablo\source\repos\SearchPhoto\SearchPhotoApp\SearchPhotoLibrary\obj\De
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.dll.config
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.dll
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\bin\Debug\SearchPhotoLibrary.pdb
-C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.csprojAssemblyReference.cache
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.csproj.CopyComplete
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.dll
 C:\Users\Admin\Source\Repos\SearchPhoto\SearchPhotoLibrary\obj\Debug\SearchPhotoLibrary.pdb

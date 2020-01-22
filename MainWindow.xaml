@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SearchPhotoApp"
         mc:Ignorable="d" Loaded="Window_Loaded"
-        Title="PhotoSearchEngine" Height="450" Width="800"  Background="#3a3c40" >
+        Title="PhotoSearchEngine" Height="450" Width="800"  Background="#3a3c40" WindowStartupLocation="CenterScreen" >
    
         <Window.Resources>
 
