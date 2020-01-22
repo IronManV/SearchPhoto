@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoApp", "SearchPho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoLibrary", "SearchPhotoLibrary\SearchPhotoLibrary.csproj", "{675F4F6F-7AB9-4D3A-9152-39996B941149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoUnitTest", "..\SearchPhotoUnitTest\SearchPhotoUnitTest.csproj", "{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPhotoUnitTest", "SearchPhotoUnitTest\SearchPhotoUnitTest.csproj", "{8DE40CCA-B8B4-4157-BE3C-5D7B13929D98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
