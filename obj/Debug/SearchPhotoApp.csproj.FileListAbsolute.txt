@@ -44,6 +44,7 @@ C:\Users\Admin\Source\Repos\SearchPhoto\bin\Debug\SearchPhotoLibrary.dll
 C:\Users\Admin\Source\Repos\SearchPhoto\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Admin\Source\Repos\SearchPhoto\bin\Debug\SearchPhotoLibrary.pdb
 C:\Users\Admin\Source\Repos\SearchPhoto\bin\Debug\SearchPhotoLibrary.dll.config
+C:\Users\Admin\Source\Repos\SearchPhoto\obj\Debug\SearchPhotoApp.csprojAssemblyReference.cache
 C:\Users\Admin\Source\Repos\SearchPhoto\obj\Debug\MainWindow.g.cs
 C:\Users\Admin\Source\Repos\SearchPhoto\obj\Debug\App.g.cs
 C:\Users\Admin\Source\Repos\SearchPhoto\obj\Debug\SearchPhotoApp_MarkupCompile.cache
