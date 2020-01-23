@@ -4,7 +4,7 @@ It's a simple desktop application build using WPF. It's using a Google Custom Se
 
 ### Prerequisites
 
-In order to be able to edit this project, you will need to download [Micosoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
+In order to be able to edit installer project, you will need to download [Micosoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 
 ### Installing
 
