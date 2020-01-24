@@ -10,8 +10,16 @@ using System.Threading.Tasks;
 
 namespace SearchPhotoLibrary
 {
+    /// <summary>
+    /// Class that contains method for getting specific photos by passing query or generating random photos
+    /// </summary>
     public class PhotoProcessor
     {
+        /// <summary>
+        /// Methods that uses google api to get url of photos
+        /// </summary>
+        /// <param name="query">it's a specific text used to search photo provided by user</param>
+        /// <returns>List of photos uri</returns>
         public static async Task<PhotoModel> LoadPhoto(string query)
         {
             string queryTerm = query;
@@ -47,6 +55,10 @@ namespace SearchPhotoLibrary
                 }
             }
         }
+        /// <summary>
+        /// Method that generate Random Photos
+        /// </summary>
+        /// <returns>List of random generated photos uri</returns>
 
         public static async Task<PhotoModel> RandomPhoto()
         {

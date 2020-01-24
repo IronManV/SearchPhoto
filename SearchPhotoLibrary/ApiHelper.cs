@@ -8,9 +8,13 @@ using System.Net.Http.Headers;
 
 namespace SearchPhotoLibrary
 {
+    /// <summary>
+    /// Class that help to communicate with google API
+    /// </summary>
     public class ApiHelper
     {
         public static HttpClient ApiClient { get; set; }
+
 
         public static void InitializeClient()
         {

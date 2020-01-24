@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SearchPhotoLibrary
 {
+    /// <summary>
+    /// Creates uri type list that stores photos uri
+    /// </summary>
     public class PhotoModel
     {
         public List<Uri> uriList = new List<Uri>();
