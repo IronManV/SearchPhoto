@@ -4,29 +4,14 @@ It's a simple desktop application build using WPF. It's using a Google Custom Se
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-testing
-```
+In order to be able to edit installer project, you will need to download [Micosoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+In order to install this application you have to go to folder where project is located
+Then you will need to follow instructions given by setup wizard
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+After instalation the application will appear on desktop
 
 ## How it works
 
@@ -45,8 +30,8 @@ Also there is button that will generate random photos
  
 ## Authors
 
-* **Paweł Gawin** - *Initial work* - [IronManV](https://github.com/IronManV)
-* **Piotr Guzik** - ** - [Myrsky18](https://github.com/Myrsky18)
+* **Paweł Gawin** - *WPF, SearchPhotoLibrary, Main Aplication Logic * - [IronManV](https://github.com/IronManV)
+* **Piotr Guzik** - *XML documentation, readme, installer, Image class and some cosmetic changes made to WPF* - [Myrsky18](https://github.com/Myrsky18)
 
 See also the list of [contributors](https://github.com/IronManV/SearchPhoto/graphs/contributors)
 
