@@ -30,7 +30,7 @@ Also there is button that will generate random photos
  
 ## Authors
 
-* **Paweł Gawin** - *WPF, SearchPhotoLibrary, Main Aplication Logic * - [IronManV](https://github.com/IronManV)
+* **Paweł Gawin** - *WPF, SearchPhotoLibrary, Main Aplication Logic* - [IronManV](https://github.com/IronManV)
 * **Piotr Guzik** - *XML documentation, readme, installer, Image class and some cosmetic changes made to WPF* - [Myrsky18](https://github.com/Myrsky18)
 
 See also the list of [contributors](https://github.com/IronManV/SearchPhoto/graphs/contributors)
